@@ -16,3 +16,7 @@ React + Redux app to test APIs using fetch and axios.
 4. View result
 
 ****Run with this :- json-server --watch db.json --port 3001***
+<img width="371" height="336" alt="image" src="https://github.com/user-attachments/assets/d1bf36f7-6225-4b56-9226-ac1784356e99" />
+
+
+
