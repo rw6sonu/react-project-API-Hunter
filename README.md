@@ -1,16 +1,18 @@
-# React + Vite
+# API Hunter
+ To create a React.js + Redux-based application that helps users explore and test different APIs by making GET and POST requests using both fetch() and axios. The app will also connect to a JSON Server as a mock backend, while Redux will be used to manage API state globally (loading, success, error, and data). This project simulates a real-world API integration workflow in modern frontend applications.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objective
+React + Redux app to test APIs using fetch and axios.
 
-Currently, two official plugins are available:
+## Features
+- GET & POST request
+- Redux state management
+- JSON Server integration
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Steps
+1. Enter API URL
+2. Select method
+3. Click Fetch / Axios
+4. View result
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+****Run with this :- json-server --watch db.json --port 3001***
